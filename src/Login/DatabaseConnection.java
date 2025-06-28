@@ -21,6 +21,7 @@ public class DatabaseConnection {
             conn = DriverManager.getConnection(
                 "jdbc:mysql://localhost:3306/db_recapz_perpustakaan", "root", "lupagw1910"); // Ubah sesuai
             System.out.println("Koneksi berhasil");
+            String nama = "test";
         } catch (Exception e) {
             System.out.println("Koneksi gagal: " + e.getMessage());
         }
